@@ -101,7 +101,7 @@ fun AlignYourBodyElement(
         )
         Text(
             text = stringResource(id = text),
-            style = MaterialTheme.typography.h3,
+            style = MaterialTheme.typography.subtitle2,
             modifier = Modifier.paddingFromBaseline(
                 top = 24.dp, bottom = 8.dp
             )
@@ -132,8 +132,8 @@ fun FavoriteCollectionCard(
             )
             Text(
                 text = stringResource(id = text),
-                style = MaterialTheme.typography.h3,
-                modifier = Modifier.padding(16.dp)
+                style = MaterialTheme.typography.subtitle2,
+                modifier = Modifier.padding(10.dp)
             )
         }
     }
@@ -186,7 +186,7 @@ fun HomeSection(
     Column(modifier) {
         Text(
             text = stringResource(id = title),
-            style = MaterialTheme.typography.h2,
+            style = MaterialTheme.typography.body1,
             modifier = Modifier
                 .paddingFromBaseline(top = 40.dp, bottom = 8.dp)
                 .padding(horizontal = 16.dp)
